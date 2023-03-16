@@ -6,6 +6,6 @@ function getIdea() {
         .then(data => {
             document.body.classList.add("fun")
             document.getElementById("idea").textContent = data.activity
-            document.getElementById("title").textContent = "🦾 HappyBot🦿"
+            document.getElementById("title").textContent = "🦾 HappyBot 🦿"
         })
 }
